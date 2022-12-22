@@ -45,6 +45,7 @@ Next, we need to use Colorama to make Termcolor work on Windows:
 ```python
 init(autoreset=True) #Makes Termcolor work on Windows devices
 ```
+The "autoreset=True" inside the "init" function makes it so we don't have to reset the color after using it. That only applies if running color through colorama only.
 
 Now, we can print colored text with the colored() function:
 ```python
